@@ -1,0 +1,143 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+.hero {
+    background-image: url("https://cdn.getyourguide.com/img/tour/5da42792af1f9.jpeg/146.jpg");
+    background-size: cover;
+    height: 300px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #ffffff;
+    align-items: center;
+    margin: 0;
+    
+}
+
+.hero:hover {
+    background-image: url("https://epa.aero/wp-content/uploads/magem-sp-negocios-img-002.jpg");
+    background-size: cover;
+}
+
+#title {
+    background: #4E5283;
+    padding: 3px 12px 5px 12px;
+    border-radius: 10px;
+    font-size: 32px;
+    margin-bottom: 11px;
+    
+}
+
+#subtitle {
+    background: #06A77D;
+    padding: 5px 29px 8px 28px;
+    border-radius: 10px;
+    width: 500px;
+    font-size: 18px;
+    margin-top: 0px;
+    width: 355px;
+    height: 39px;
+    left: 182px;
+    top: 177px;
+    
+}
+
+.top-activities {
+    background-color: #F1FAEE;
+    padding: 30px 0px;
+    color: #1D3557;
+    margin-bottom: 0px;
+    
+}
+
+.top-stadiums {
+    background-color: #aa9fb1;
+    padding: 30px 0px;
+    color: #1D3557;
+    margin-bottom: 0px;
+    text-shadow: 0px 0px black;
+}
+
+.activities-heading {
+    color: #1D3557;
+    font-weight: bold;
+    display: block;
+}
+
+.stadiums-heading {
+    color: #1D3557;
+    font-weight: bold;
+    display: block;
+}
+
+.activities, .stadiums {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+.activity, .stadium {
+    width: 300px;
+    padding: 0px 20px;
+}
+
+.activities-img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.activities-img:hover, .stadiums-img:hover {
+    width: 200px;
+    height: 200px;
+    border: 5px solid #06A77D;
+}
+footer {
+    background: #ffffff;
+    padding-top: 50px;
+    padding-bottom: 50px
+}
+.guide {
+    background: #F2B5D4;;
+    color: #1D3557;
+    padding: 20px 20px;
+    margin: 50px 160px 50px 160px;
+    border-radius: 30px;
+    align-items: center;
+    box-shadow: 0px 6px 0px #1D3557;
+    width: 400px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    
+    
+}
+
+#guide-img {
+    padding: 10px;
+    border-radius: 30px;
+    width: 200px;
+
+}
+
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+}
+
+img {
+    width: 100px;
+}
+
+footer p {
+font-style: italic;
+font-size: 17px;
+}
